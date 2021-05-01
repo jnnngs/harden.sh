@@ -1,4 +1,4 @@
-# <p><span style="font-family: 'Lucida Console'; line-height: 14px; font-size: 14px; display: inline-block;">░▒█░▒█░█▀▀▄░█▀▀▄░█▀▄░█▀▀░█▀▀▄░░░░█▀▀░█░░░<br />░▒█▀▀█░█▄▄█░█▄▄▀░█░█░█▀▀░█░▒█░▄▄░▀▀▄░█▀▀█<br />░▒█░▒█░▀░░▀░▀░▀▀░▀▀░░▀▀▀░▀░░▀░▀▀░▀▀▀░▀░░▀<br /></span></p>
+# <p><span style="font-family: 'Lucida Console'; line-height: 8px; font-size: 8px; display: inline-block;">░▒█░▒█░█▀▀▄░█▀▀▄░█▀▄░█▀▀░█▀▀▄░░░░█▀▀░█░░░<br />░▒█▀▀█░█▄▄█░█▄▄▀░█░█░█▀▀░█░▒█░▄▄░▀▀▄░█▀▀█<br />░▒█░▒█░▀░░▀░▀░▀▀░▀▀░░▀▀▀░▀░░▀░▀▀░▀▀▀░▀░░▀<br /></span></p>
 
 Welcome to Harden Script Installation
 
