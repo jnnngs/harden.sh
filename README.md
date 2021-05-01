@@ -1,4 +1,5 @@
-# Harden.sh
+# <p><span style="font-family: 'Lucida Console'; line-height: 14px; font-size: 14px; display: inline-block;">░▒█░▒█░█▀▀▄░█▀▀▄░█▀▄░█▀▀░█▀▀▄░░░░█▀▀░█░░░<br />░▒█▀▀█░█▄▄█░█▄▄▀░█░█░█▀▀░█░▒█░▄▄░▀▀▄░█▀▀█<br />░▒█░▒█░▀░░▀░▀░▀▀░▀▀░░▀▀▀░▀░░▀░▀▀░▀▀▀░▀░░▀<br /></span></p>
+
 Welcome to Harden Script Installation
 
 Harden.sh is a single file zero config shell script to be run to harden a newly installed linux os. Harden.sh aims to set a sensible baseline which can be built upon for specific needs.
