@@ -300,10 +300,22 @@ PermitRootLogin no
 add_legal_banner() {
   # Add legal banner
   echo "
+░▒█░▒█░█▀▀▄░█▀▀▄░█▀▄░█▀▀░█▀▀▄░░░░█▀▀░█░░░
+░▒█▀▀█░█▄▄█░█▄▄▀░█░█░█▀▀░█░▒█░▄▄░▀▀▄░█▀▀█
+░▒█░▒█░▀░░▀░▀░▀▀░▀▀░░▀▀▀░▀░░▀░▀▀░▀▀▀░▀░░▀
+
+Protection by harden.sh
+
 Unauthorized access to this server is prohibited.
 Legal action will be taken. Disconnect now.
 " > /etc/issue
   echo "
+░▒█░▒█░█▀▀▄░█▀▀▄░█▀▄░█▀▀░█▀▀▄░░░░█▀▀░█░░░
+░▒█▀▀█░█▄▄█░█▄▄▀░█░█░█▀▀░█░▒█░▄▄░▀▀▄░█▀▀█
+░▒█░▒█░▀░░▀░▀░▀▀░▀▀░░▀▀▀░▀░░▀░▀▀░▀▀▀░▀░░▀
+
+Protection by harden.sh
+
 Unauthorized access to this server is prohibited.
 Legal action will be taken. Disconnect now.
 " > /etc/issue.net
