@@ -461,8 +461,9 @@ purge_old_packages() {
 }
 
 run() {
-  typeset -f "$1" | tail -n +2
   clear
+  echo -e -n "${lightgreen}"
+  typeset -f "$1" | tail -n +2
   echo -e -n "${white}"
     echo "
   ░▒█░▒█░█▀▀▄░█▀▀▄░█▀▄░█▀▀░█▀▀▄░░░░█▀▀░█░░░
