@@ -456,8 +456,9 @@ run() {
 
   Protection by harden.sh
   "
-  echo -e -n "${green}"
+  echo -e -n "${lightgreen}"
   echo "$2"
+  echo -e -n "${green}"
   echo "Run the above commands? [y/N]"
   read -r answer
 	echo -e -n "${nocolor}"
