@@ -459,6 +459,7 @@ run() {
   echo -e -n "${lightgreen}"
   echo "$2"
   echo -e -n "${green}"
+  echo " "
   echo "Run the above commands? [y/N]"
   read -r answer
 	echo -e -n "${nocolor}"
