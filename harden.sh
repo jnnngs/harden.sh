@@ -362,6 +362,21 @@ Protection by harden.sh
 Unauthorized access to this server is prohibited.
 Legal action will be taken. Disconnect now.
 " > /etc/issue.net
+  echo "
+░▒█░▒█░█▀▀▄░█▀▀▄░█▀▄░█▀▀░█▀▀▄░░░░█▀▀░█░░░
+░▒█▀▀█░█▄▄█░█▄▄▀░█░█░█▀▀░█░▒█░▄▄░▀▀▄░█▀▀█
+░▒█░▒█░▀░░▀░▀░▀▀░▀▀░░▀▀▀░▀░░▀░▀▀░▀▀▀░▀░░▀
+
+Protection by harden.sh
+
+Unauthorized access to this server is prohibited.
+Legal action will be taken. Disconnect now.
+" > /etc/motd
+# Ensure PrintMots is set to yes
+echo "
+PrintMotd yes
+" >> /etc/ssh/sshd_config
+
 }
 
 install_recommended_packages() {
