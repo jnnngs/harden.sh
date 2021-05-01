@@ -318,7 +318,7 @@ TCPKeepAlive no
 AllowAgentForwarding no
 AllowTcpForwarding no
 Port 141
-PasswordAuthentication no
+#PasswordAuthentication no
 " >> /etc/ssh/sshd_config
   sed -i s/^X11Forwarding.*/X11Forwarding\ no/ /etc/ssh/sshd_config
   sed -i s/^UsePAM.*/UsePAM\ no/ /etc/ssh/sshd_config
