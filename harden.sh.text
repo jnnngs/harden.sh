@@ -15,5 +15,5 @@
 <div onmouseleave="clearTooltip(this);" data-clipboard-action="copy" data-tooltip="Click to Copy" data-tooltip-position="bottom" data-clipboard-copy id="curl" class="shake" data-clipboard-target="#curl">bash <(curl -s https://harden.sh/harden.sh)</div>
 <br/>
 <span id="a">harden.sh</span>:<span id="b">~</span><span id="c">$</span> cat about.txt
-<div id="c">harden is a communication protocol and free and open-source software that implements encrypted virtual private networks, and was designed with the goals of ease of use, high speed performance, and low attack surface.</div>
+<div id="c">Harden.sh is a single file zero config shell script to be run to harden a newly installed linux os. Harden.sh aims to set a sensible baseline which can be built upon for specific needs.</div>
 <div>exit</div>
