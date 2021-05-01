@@ -1,0 +1,21 @@
+<span>login as: harden.sh</span>
+<span>harden.sh@127.0.0.1's password:</span>
+<div>Welcome to harden v1.0 automated installation script</div>
+<div> * Open Source:        https://github.com/jnnngs/harden.sh</div>
+<span id="a">╦ ╦┬┬─┐┌─┐╔═╗┬ ┬┌─┐┬─┐┌┬┐ ┌─┐┬ ┬</span>
+<span id="a">║║║│├┬┘├┤ ║ ╦│ │├─┤├┬┘ ││ └─┐├─┤</span>
+<span id="a">╚╩╝┴┴└─└─┘╚═╝└─┘┴ ┴┴└──┴┘o└─┘┴ ┴</span>
+<div>v1.0</div>
+<span id="a">harden.sh</span>:<span id="b">~</span><span id="c">$</span> cd harden.sh/
+<span id="a">harden.sh</span>:<span id="b">~</span><span id="c">$</span> cat help.txt
+<span/>
+<div id="c">Run one of the following commands to automatically install harden.</div>
+<div id="c">Supported on Centos, Debian, Fedora & Ubuntu.</div>
+<div onmouseleave="clearTooltip(this);" data-clipboard-action="copy" data-tooltip="Click to Copy" data-tooltip-position="bottom" data-clipboard-copy id="wget" class="shake" data-clipboard-target="#wget">bash <(wget -O - https://harden.sh/harden.sh)</div>
+<span/>
+<div> or </div>
+<div onmouseleave="clearTooltip(this);" data-clipboard-action="copy" data-tooltip="Click to Copy" data-tooltip-position="bottom" data-clipboard-copy id="curl" class="shake" data-clipboard-target="#curl">bash <(curl -s https://harden.sh/harden.sh)</div>
+<br/>
+<span id="a">harden.sh</span>:<span id="b">~</span><span id="c">$</span> cat about.txt
+<div id="c">harden is a communication protocol and free and open-source software that implements encrypted virtual private networks, and was designed with the goals of ease of use, high speed performance, and low attack surface.</div>
+<div>exit</div>
