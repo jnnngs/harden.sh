@@ -2,9 +2,7 @@
 <span>harden.sh@127.0.0.1's password:</span>
 <div>Welcome to harden v1.0 automated installation script</div>
 <div> * Open Source:        https://github.com/jnnngs/harden.sh</div>
-<span id="a">╦ ╦┬┬─┐┌─┐╔═╗┬ ┬┌─┐┬─┐┌┬┐ ┌─┐┬ ┬</span>
-<span id="a">║║║│├┬┘├┤ ║ ╦│ │├─┤├┬┘ ││ └─┐├─┤</span>
-<span id="a">╚╩╝┴┴└─└─┘╚═╝└─┘┴ ┴┴└──┴┘o└─┘┴ ┴</span>
+<p><span style="font-family: 'Lucida Console'; line-height: 14px; font-size: 14px; display: inline-block;">░▒█░▒█░█▀▀▄░█▀▀▄░█▀▄░█▀▀░█▀▀▄░░░░█▀▀░█░░░<br />░▒█▀▀█░█▄▄█░█▄▄▀░█░█░█▀▀░█░▒█░▄▄░▀▀▄░█▀▀█<br />░▒█░▒█░▀░░▀░▀░▀▀░▀▀░░▀▀▀░▀░░▀░▀▀░▀▀▀░▀░░▀<br /></span></p>
 <div>v1.0</div>
 <span id="a">harden.sh</span>:<span id="b">~</span><span id="c">$</span> cd harden.sh/
 <span id="a">harden.sh</span>:<span id="b">~</span><span id="c">$</span> cat help.txt
