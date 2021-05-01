@@ -447,6 +447,15 @@ purge_old_packages() {
 
 run() {
   typeset -f "$1" | tail -n +2
+  clear
+  echo -e -n "${white}"
+    echo "
+  ░▒█░▒█░█▀▀▄░█▀▀▄░█▀▄░█▀▀░█▀▀▄░░░░█▀▀░█░░░
+  ░▒█▀▀█░█▄▄█░█▄▄▀░█░█░█▀▀░█░▒█░▄▄░▀▀▄░█▀▀█
+  ░▒█░▒█░▀░░▀░▀░▀▀░▀▀░░▀▀▀░▀░░▀░▀▀░▀▀▀░▀░░▀
+
+  Protection by harden.sh
+  "
   echo -e -n "${green}"
   echo "$2"
   echo "Run the above commands? [y/N]"
@@ -458,6 +467,17 @@ run() {
 }
 
 setup_environment
+clear
+echo -e -n "${white}"
+  echo "
+░▒█░▒█░█▀▀▄░█▀▀▄░█▀▄░█▀▀░█▀▀▄░░░░█▀▀░█░░░
+░▒█▀▀█░█▄▄█░█▄▄▀░█░█░█▀▀░█░▒█░▄▄░▀▀▄░█▀▀█
+░▒█░▒█░▀░░▀░▀░▀▀░▀▀░░▀▀▀░▀░░▀░▀▀░▀▀▀░▀░░▀
+
+Protection by harden.sh
+"
+
+echo -e -n "${nocolor}"
 
 run apt_update "Update and upgrade all packages"
 run configure_iptables "Configure iptables"
