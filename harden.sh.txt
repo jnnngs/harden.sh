@@ -8,7 +8,7 @@
 <span id="a">harden.sh</span>:<span id="b">~</span><span id="c">$</span> cat help.txt
 <span/>
 <div id="c">Run one of the following commands to automatically install harden.</div>
-<div id="c">Supported on Centos, Debian, Fedora & Ubuntu.</div>
+<div id="c">Supported on Debian and Debian based systems. e.g. Ubuntu</div>
 <div onmouseleave="clearTooltip(this);" data-clipboard-action="copy" data-tooltip="Click to Copy" data-tooltip-position="bottom" data-clipboard-copy id="wget" class="shake" data-clipboard-target="#wget">bash <(wget -O - https://harden.sh/harden.sh)</div>
 <span/>
 <div> or </div>
