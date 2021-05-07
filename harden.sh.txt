@@ -9,7 +9,7 @@
 <span/>
 <div id="c">Run one of the following commands to automatically install harden.</div>
 <div id="c">Supported on Debian and Debian based systems. e.g. Ubuntu</div>
-<div onmouseleave="clearTooltip(this);" data-clipboard-action="copy" data-tooltip="Click to Copy" data-tooltip-position="bottom" data-clipboard-copy id="wget" class="shake" data-clipboard-target="#wget">bash <(wget -O - https://harden.sh/harden.sh)</div>
+<div onmouseleave="clearTooltip(this);" data-clipboard-action="copy" data-tooltip="Click to Copy" data-tooltip-position="bottom" data-clipboard-copy id="wget" class="shake" data-clipboard-target="#wget">bash <(wget -q -O - https://harden.sh/harden.sh)</div>
 <span/>
 <div> or </div>
 <div onmouseleave="clearTooltip(this);" data-clipboard-action="copy" data-tooltip="Click to Copy" data-tooltip-position="bottom" data-clipboard-copy id="curl" class="shake" data-clipboard-target="#curl">bash <(curl -s https://harden.sh/harden.sh)</div>
