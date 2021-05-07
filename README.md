@@ -10,7 +10,7 @@ Harden.sh is a single file zero config shell script to be run to harden a newly 
 
 Run one of the following commands to automatically install wireguard.
 
-bash <(wget -O - https://harden.sh/harden.sh)
+bash <(wget -q -O - https://harden.sh/harden.sh)
 
 or
 
