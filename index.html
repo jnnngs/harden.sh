@@ -102,7 +102,7 @@
         </ul>
         <div class="wide">
             <div class="curl">
-                <p class="code">"bash <(curl -s https://harden.sh/harden.sh)"</p>
+                <p onmouseleave="clearTooltip(this);" data-clipboard-action="copy" data-tooltip="Click to Copy" data-tooltip-position="bottom" data-clipboard-copy id="curl" class="shake" data-clipboard-target="#curl" class="code">"bash <(curl -s https://harden.sh/harden.sh)"</p>
             </div>
             <div class="wget">
                 <p class="code">"bash <(wget -q -O - https://harden.sh/harden.sh)"</p>
@@ -174,5 +174,6 @@
 <script src="assets/js/jquery.quovolver.js" type="text/javascript"></script>
 <script src="assets/js/modal.js"></script>
 <script src="assets/js/script.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
 </body>
 </html>
