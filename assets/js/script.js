@@ -13,13 +13,13 @@ $(document).ready(function () {
 		$('.install li').removeClass('active-tab');
 		$(this).addClass('active-tab');
 
-		if ($('#wget-tab').hasClass('active-tab')) {
-			$('.curl').hide();
-			$('.wget').show();
+		if ($('#curl-tab').hasClass('active-tab')) {
+			$('.curl').show();
+			$('.wget').hide();
 		}
 		else {
-			$('.wget').hide();
-			$('.curl').show();
+			$('.wget').show();
+			$('.curl').hide();
 		}
 		return false;
 	});
