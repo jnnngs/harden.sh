@@ -289,8 +289,9 @@ span {
 
 /* line 238, ../_sass/style.scss */
 .screenshots, .terminal-slides {
-  max-width: 673px;
-  width: 100%;
+  /* max-width: 673px; */
+  height: 380px
+  /* width: 100%; */
 }
 /* line 241, ../_sass/style.scss */
 .screenshots img, .terminal-slides img {
