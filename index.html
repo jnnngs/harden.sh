@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/fancy.css">
     <script type="text/javascript" src="https://use.typekit.net/iof2xms.js"></script>
     <script type="text/javascript">try {Typekit.load();} catch (e) {}</script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
 </head>
 <body>
 <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -107,9 +108,9 @@
             <li id="wget-tab" class="light"><a href="#">Via wget</a></li>
         </ul>
         <div class="wide">
-            <div class="curl">
+            <div class="curl"><br/>
                 <div onmouseleave="clearTooltip(this);" data-clipboard-action="copy" data-tooltip="Click to Copy" data-tooltip-position="bottom" data-clipboard-copy id="curl" data-clipboard-target="#curl" class="code shake">bash <(curl -s https://harden.sh/harden.sh)</div>
-            </div>
+            </div><br/>
             <div class="wget">
                 <p class="code">bash <(wget -q -O - https://harden.sh/harden.sh)</p>
             </div>
